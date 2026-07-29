@@ -138,6 +138,8 @@
     </div>
   </section>
 
+  <!-- Projects -->
+
   <section id="projects" class="projects">
     <div class="container">
       <div class="projects-header">
@@ -145,9 +147,19 @@
         <h2>RECENT PROJECT</h2>
       </div>
 
+      <!-- Project Filters -->
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="robotics">Robotics</button>
+        <button class="filter-btn" data-filter="medical">Medical</button>
+        <button class="filter-btn" data-filter="audio">Audio</button>
+        <button class="filter-btn" data-filter="consumer">Consumer Products</button>
+        <button class="filter-btn" data-filter="communication">Communication</button>
+      </div>
+
       <div class="projects-grid">
         <!-- Project 1 -->
-        <div class="project-card">
+        <div class="project-card" data-category="audio">
           <div class="project-image">
             <img src="project_1/p_01.png" alt="Automated Sound Amplifier">
           </div>
@@ -161,7 +173,7 @@
         </div>
         <!-- Project 2 -->
 
-        <div class="project-card">
+        <div class="project-card" data-category="medical">
           <div class="project-image">
             <img src="project_8/p_b.png" alt="Smart Dengue Patient Monitoring System">
           </div>
@@ -178,7 +190,7 @@
 
 
         <!-- Project 3 -->
-        <div class="project-card">
+        <div class="project-card" data-category="consumer">
           <div class="project-image">
             <img src="project_3/p_b_b.png" alt="Automated IoT Smart Water Meter">
           </div>
@@ -192,7 +204,7 @@
           </div>
         </div>
         <!-- Project 4 -->
-        <div class="project-card">
+        <div class="project-card" data-category="robotics">
           <div class="project-image">
             <img src="project_4/p_b.png" alt="vision based multi tasking robot">
           </div>
@@ -207,7 +219,7 @@
         </div>
         <!-- Project 5 -->
 
-        <div class="project-card">
+        <div class="project-card" data-category="robotics">
           <div class="project-image">
             <img src="project_9/p_b.png" alt="5-Arm Radial Mobile Robot">
           </div>
@@ -224,7 +236,7 @@
 
 
         <!-- Project 6 -->
-        <div class="project-card">
+        <div class="project-card" data-category="medical">
           <div class="project-image">
             <img src="project_6/p_b.png" alt="MediPack Pro">
           </div>
@@ -238,7 +250,7 @@
           </div>
         </div>
         <!-- Project 7 -->
-        <div class="project-card">
+        <div class="project-card" data-category="audio">
           <div class="project-image">
             <img src="project_7/p_b.png" alt="Fully Analog Noise-Canceling Microphone">
           </div>
@@ -253,7 +265,7 @@
         </div>
         <!-- Project 8 -->
 
-        <div class="project-card">
+        <div class="project-card" data-category="audio">
           <div class="project-image">
             <img src="project_2/p_b.png" alt="Analog Sound Regulator Amplifier">
           </div>
@@ -268,7 +280,7 @@
         </div>
 
         <!-- Project 9 -->
-        <div class="project-card">
+        <div class="project-card" data-category="communication">
           <div class="project-image">
             <img src="project_5/p_b.png" alt="UART Implementation in FPGA">
           </div>
@@ -289,6 +301,8 @@
       </div>
     </div>
   </section>
+
+  <!-- Certifications-->
 
   <section id="certifications" class="services">
     <div class="container">
@@ -383,6 +397,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="script.js"></script>
 
 </body>
 
