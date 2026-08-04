@@ -166,7 +166,7 @@ header .container {
   animation: blink 1s step-end infinite;
 
   display: inline-block;
-  font-size: 0.85em;
+  font-size: 1.7em;
   /* Scale height down relative to h2 (e.g., 0.8em - 0.9em) */
   vertical-align: middle;
   /* Keeps scaled cursor centered */
