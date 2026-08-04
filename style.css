@@ -155,7 +155,6 @@ header .container {
 }
 
 .typewriter-cursor {
-  font-size: 8rem;
   font-weight: 300;
   color: var(--text-primary);
   animation: blink 1s step-end infinite;
