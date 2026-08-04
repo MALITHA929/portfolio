@@ -611,8 +611,9 @@ header .container {
 
 .footer-links {
   display: flex;
-  flex: 1;
-  justify-content: space-between;
+  gap: 4rem;
+  /* flex: 1; */
+  /* justify-content: space-between; */
 }
 
 .link-group h4 {
