@@ -154,11 +154,24 @@ header .container {
   align-items: center;
 }
 
+/* .typewriter-cursor {
+  font-weight: 300;
+  color: var(--text-primary);
+  animation: blink 1s step-end infinite;
+} */
+
 .typewriter-cursor {
   font-weight: 300;
   color: var(--text-primary);
   animation: blink 1s step-end infinite;
+
+  display: inline-block;
+  font-size: 0.85em;
+  /* Scale height down relative to h2 (e.g., 0.8em - 0.9em) */
+  vertical-align: middle;
+  /* Keeps scaled cursor centered */
 }
+
 
 @keyframes blink {
   50% {
