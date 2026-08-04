@@ -1010,8 +1010,15 @@ header .container {
 
 
   .footer-links {
+
+    display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
+    align-items: center;
+
+
+    /* flex-direction: column;
+    gap: 2rem; */
   }
 
 
